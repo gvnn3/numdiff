@@ -27,3 +27,5 @@ netstat -s -p tcp > before
 sleep 10
 netstat -s -p tcp > after
 numdiff -l -s " " before after
+
+Sponsored by: Rubicon Communications, LLC (Netgate)
